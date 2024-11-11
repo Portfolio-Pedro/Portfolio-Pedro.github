@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    line-height: 1.6;
+    line-height: 0.8;
     overflow-x: hidden;
 }
 
@@ -22,7 +22,7 @@ body {
     align-items: center;
     background: rgba(149, 148, 148, 0.95);
     backdrop-filter: blur(18px);
-    z-index: 10000;
+    z-index: 1000;
 }
 
 .nav-links a {
@@ -48,26 +48,26 @@ body {
 }
 
 .hero-content {
-    max-width: 50%;
+    max-width: 100%;
     text-align: center;
-    padding-top: 50px;
-    width: 55%
+    padding-top: 80px;
+    width: 100%
 }
 
 
 .hero h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
+    font-size: 2rem;
+    margin-bottom: 3rem;
     color: #ffffff; /* Ajuste para o tom azul */
     background: linear-gradient(45deg, #000000, #024699 );
     display: inline-block;
-    padding: 1em;
+    padding: 1.0em;
 }
 
 
 .hero-3d {
-    width: 50%;
-    height: 500px;
+    width: 100%;
+    height: 400px;
 }
 
 .button {
